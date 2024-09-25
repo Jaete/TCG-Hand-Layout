@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://bshtgx7jmsc0l"]
+
+[ext_resource type="Script" path="res://Scripts/Layout.cs" id="1_qu4yx"]
+[ext_resource type="Texture2D" uid="uid://ctr207jo5uxi3" path="res://Assets/placeholder.png" id="2_kben5"]
+
+[node name="Canvas" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HandLayout" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 552.0
+offset_top = 520.0
+offset_right = 592.0
+offset_bottom = 560.0
+script = ExtResource("1_qu4yx")
+
+[node name="TextureRect" type="TextureRect" parent="HandLayout"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_kben5")
