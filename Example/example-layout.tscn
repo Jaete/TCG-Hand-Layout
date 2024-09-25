@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bshtgx7jmsc0l"]
 
 [ext_resource type="Script" path="res://Scripts/Layout.cs" id="1_qu4yx"]
-[ext_resource type="Texture2D" uid="uid://ctr207jo5uxi3" path="res://Assets/placeholder.png" id="2_kben5"]
+[ext_resource type="PackedScene" uid="uid://drdb7aaaqfdi2" path="res://Example/Card.tscn" id="2_vp6wi"]
 
 [node name="Canvas" type="Control"]
 layout_mode = 3
@@ -13,14 +13,53 @@ grow_vertical = 2
 
 [node name="HandLayout" type="Control" parent="."]
 anchors_preset = 0
-offset_left = 552.0
-offset_top = 520.0
-offset_right = 592.0
-offset_bottom = 560.0
+offset_left = 513.0
+offset_top = 472.0
+offset_right = 553.0
+offset_bottom = 512.0
 script = ExtResource("1_qu4yx")
+CirclePercentage = 0.1
+HoverPadding = 15.0
 
-[node name="TextureRect" type="TextureRect" parent="HandLayout"]
+[node name="Card" parent="HandLayout" instance=ExtResource("2_vp6wi")]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
-texture = ExtResource("2_kben5")
+anchors_preset = 0
+offset_left = -154.509
+offset_top = 24.4718
+offset_right = -84.5085
+offset_bottom = 124.472
+rotation = -0.314159
+
+[node name="Card2" parent="HandLayout" instance=ExtResource("2_vp6wi")]
+layout_mode = 0
+anchors_preset = 0
+offset_left = -78.2172
+offset_top = 6.15582
+offset_right = -8.21722
+offset_bottom = 106.156
+rotation = -0.15708
+
+[node name="Card3" parent="HandLayout" instance=ExtResource("2_vp6wi")]
+layout_mode = 0
+anchors_preset = 0
+offset_left = -2.18557e-05
+offset_right = 70.0
+offset_bottom = 100.0
+
+[node name="Card4" parent="HandLayout" instance=ExtResource("2_vp6wi")]
+layout_mode = 0
+anchors_preset = 0
+offset_left = 78.2172
+offset_top = 6.15582
+offset_right = 148.217
+offset_bottom = 106.156
+rotation = 0.15708
+
+[node name="Card5" parent="HandLayout" instance=ExtResource("2_vp6wi")]
+layout_mode = 0
+anchors_preset = 0
+offset_left = 154.508
+offset_top = 24.4717
+offset_right = 224.508
+offset_bottom = 124.472
+rotation = 0.314159

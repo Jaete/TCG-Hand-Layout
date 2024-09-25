@@ -1,3 +1,9 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+*.tmp
+.vs/
+.idea
+*.csproj.old.*
+*.csproj.old
+*.DotSettings.user
