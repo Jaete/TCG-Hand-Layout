@@ -201,7 +201,9 @@ namespace TCGHandLayoutPlugin.Scripts{
 		if (Engine.IsEditorHint() || !_enableHover && _draggingCard != null){
 			return;
 		}
-		var oldHoveredIndex = HoveredIndex;
+		if (_draggingCard != null){
+			return;
+		}
 		if (_mouseIn){
 			var mousePosition = GetGlobalMousePosition();
 			var newHoverIndex = LayoutService.FindCardWithPoint(this, mousePosition);

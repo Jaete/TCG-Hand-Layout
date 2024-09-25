@@ -24,42 +24,62 @@ HoverPadding = 15.0
 [node name="Card" parent="HandLayout" instance=ExtResource("2_vp6wi")]
 layout_mode = 0
 anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
 offset_left = -154.509
 offset_top = 24.4718
-offset_right = -84.5085
-offset_bottom = 124.472
+offset_right = -44.5085
+offset_bottom = 164.472
+grow_horizontal = 1
+grow_vertical = 1
 rotation = -0.314159
 
 [node name="Card2" parent="HandLayout" instance=ExtResource("2_vp6wi")]
 layout_mode = 0
 anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
 offset_left = -78.2172
 offset_top = 6.15582
-offset_right = -8.21722
-offset_bottom = 106.156
+offset_right = 31.7828
+offset_bottom = 146.156
+grow_horizontal = 1
+grow_vertical = 1
 rotation = -0.15708
 
 [node name="Card3" parent="HandLayout" instance=ExtResource("2_vp6wi")]
 layout_mode = 0
 anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
 offset_left = -2.18557e-05
-offset_right = 70.0
-offset_bottom = 100.0
+offset_right = 110.0
+offset_bottom = 140.0
+grow_horizontal = 1
+grow_vertical = 1
 
 [node name="Card4" parent="HandLayout" instance=ExtResource("2_vp6wi")]
 layout_mode = 0
 anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
 offset_left = 78.2172
 offset_top = 6.15582
-offset_right = 148.217
-offset_bottom = 106.156
+offset_right = 188.217
+offset_bottom = 146.156
+grow_horizontal = 1
+grow_vertical = 1
 rotation = 0.15708
 
 [node name="Card5" parent="HandLayout" instance=ExtResource("2_vp6wi")]
 layout_mode = 0
 anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
 offset_left = 154.508
 offset_top = 24.4717
-offset_right = 224.508
-offset_bottom = 124.472
+offset_right = 264.508
+offset_bottom = 164.472
+grow_horizontal = 1
+grow_vertical = 1
 rotation = 0.314159
