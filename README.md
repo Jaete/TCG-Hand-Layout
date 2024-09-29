@@ -69,8 +69,9 @@ Esse plugin foi desenvolvido pra desenvolvedores do Godot .NET que não querem m
 
 ### Futuros updates
 
-- Adicionar lógica de ativação de carta, seja no clique (com confirmação) ou ao arrastar e jogar para uma região da tela definida pelo desenvolvedor, de forma que seja possível chamar qualquer função para realizar a ativação.
-
-- Criar mais ajustes finos no layout para ficar cada vez mais personalizável, apesar de já estar num ponto ótimo.
+- ~~Adicionar lógica de ativação de carta, seja no clique (com confirmação) ou ao arrastar e jogar para uma região da tela definida pelo desenvolvedor, de forma que seja possível chamar qualquer função para realizar a ativação.~~ 
+- ~~Criar mais ajustes finos no layout para ficar cada vez mais personalizável, apesar de já estar num ponto ótimo.~~
 
 - Documentar os comentários originais do código que estão em inglês e deixá-los em português num Readme separado.
+
+- Futuros updates agora ficam nas notas de releases.
