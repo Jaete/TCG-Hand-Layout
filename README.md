@@ -1,4 +1,4 @@
-#TCG Hand Layout
+# TCG Hand Layout
 ## English
 
 A plugin to serve as a card game layout for the player's hand.
