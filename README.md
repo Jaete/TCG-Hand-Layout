@@ -7,7 +7,7 @@ I've remade the plugin from cyanglaz repository using Godot .NET instead.
 
 This plugin is designed for Godot .NET users who prefer not to mix C# and GDScript in their projects.
 
-**Current State**: Same as the original by cyanglaz. I intend to add more features, as it is for a game project I am working on.
+**Current State**: Added some more stuff over the original plugin, view the Release note to know more.
 
 ### Features:
 
@@ -45,7 +45,7 @@ Eu refiz o plugin do repositório do cyanglaz mas usando Godot .NET no lugar.
 
 Esse plugin foi desenvolvido pra desenvolvedores do Godot .NET que não querem misturar scripts C# com GDScript nos seus projetos.
 
-**Estado atual**: O mesmo que o original do cyanglaz. Eu pretendo adicionar mais funcionalidades, já que também vai servir pra um projeto de jogo que estou trabalhando.
+**Estado atual**: Adicionei mais umas coisas sobre o plugin original. Veja as notas de release para saber mais.
 
 ### Funcionalidades:
 
