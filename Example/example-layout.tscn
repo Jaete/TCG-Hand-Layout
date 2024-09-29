@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://bshtgx7jmsc0l"]
+[gd_scene load_steps=5 format=3 uid="uid://bshtgx7jmsc0l"]
 
 [ext_resource type="Script" path="res://Scripts/Layout.cs" id="1_qu4yx"]
 [ext_resource type="PackedScene" uid="uid://drdb7aaaqfdi2" path="res://Example/Card.tscn" id="2_vp6wi"]
+[ext_resource type="Script" path="res://Scripts/Deck.cs" id="3_tkwlb"]
+[ext_resource type="Texture2D" uid="uid://q3kg2lgklte3" path="res://Assets/deck.png" id="4_kkcye"]
 
-[node name="Canvas" type="Control"]
+[node name="HUD" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -18,68 +20,107 @@ offset_top = 472.0
 offset_right = 553.0
 offset_bottom = 512.0
 script = ExtResource("1_qu4yx")
-CirclePercentage = 0.1
-HoverPadding = 15.0
+CirclePercentage = 0.13
 
 [node name="Card" parent="HandLayout" instance=ExtResource("2_vp6wi")]
 layout_mode = 0
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
-offset_left = -154.509
-offset_top = 24.4718
-offset_right = -44.5085
-offset_bottom = 164.472
+offset_left = -238.289
+offset_top = 49.3472
+offset_right = -128.288
+offset_bottom = 189.347
 grow_horizontal = 1
 grow_vertical = 1
-rotation = -0.314159
+rotation = -0.408407
+pivot_offset = Vector2(55.001, 0)
 
 [node name="Card2" parent="HandLayout" instance=ExtResource("2_vp6wi")]
 layout_mode = 0
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
-offset_left = -78.2172
-offset_top = 6.15582
-offset_right = 31.7828
-offset_bottom = 146.156
+offset_left = -145.56
+offset_top = 17.9241
+offset_right = -35.5561
+offset_bottom = 157.924
 grow_horizontal = 1
 grow_vertical = 1
-rotation = -0.15708
+rotation = -0.245044
+pivot_offset = Vector2(55.001, 0)
 
 [node name="Card3" parent="HandLayout" instance=ExtResource("2_vp6wi")]
 layout_mode = 0
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
-offset_left = -2.18557e-05
-offset_right = 110.0
-offset_bottom = 140.0
+offset_left = -48.9544
+offset_top = 2.00049
+offset_right = 61.0477
+offset_bottom = 142.001
 grow_horizontal = 1
 grow_vertical = 1
+rotation = -0.0816815
+pivot_offset = Vector2(55.001, 0)
 
 [node name="Card4" parent="HandLayout" instance=ExtResource("2_vp6wi")]
 layout_mode = 0
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
-offset_left = 78.2172
-offset_top = 6.15582
-offset_right = 188.217
-offset_bottom = 146.156
+offset_left = 48.9543
+offset_top = 2.00043
+offset_right = 158.956
+offset_bottom = 142.0
 grow_horizontal = 1
 grow_vertical = 1
-rotation = 0.15708
+rotation = 0.0816814
+pivot_offset = Vector2(55.001, 0)
 
 [node name="Card5" parent="HandLayout" instance=ExtResource("2_vp6wi")]
 layout_mode = 0
 anchors_preset = 0
 anchor_right = 0.0
 anchor_bottom = 0.0
-offset_left = 154.508
-offset_top = 24.4717
-offset_right = 264.508
-offset_bottom = 164.472
+offset_left = 145.559
+offset_top = 17.924
+offset_right = 255.561
+offset_bottom = 157.924
 grow_horizontal = 1
 grow_vertical = 1
-rotation = 0.314159
+rotation = 0.245044
+pivot_offset = Vector2(55.001, 0)
+
+[node name="Card6" parent="HandLayout" instance=ExtResource("2_vp6wi")]
+layout_mode = 0
+anchors_preset = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
+offset_left = 238.289
+offset_top = 49.3472
+offset_right = 348.291
+offset_bottom = 189.347
+grow_horizontal = 1
+grow_vertical = 1
+rotation = 0.408407
+pivot_offset = Vector2(55.001, 0)
+
+[node name="PlayableArea" type="Control" parent="."]
+anchors_preset = 0
+offset_left = -1.0
+offset_top = 4.0
+offset_right = 1151.0
+offset_bottom = 464.0
+
+[node name="Deck" type="Control" parent="."]
+anchors_preset = 0
+offset_left = 963.0
+offset_top = 493.0
+offset_right = 1149.0
+offset_bottom = 645.0
+script = ExtResource("3_tkwlb")
+
+[node name="Sprite" type="Sprite2D" parent="Deck"]
+position = Vector2(98, 68)
+texture = ExtResource("4_kkcye")

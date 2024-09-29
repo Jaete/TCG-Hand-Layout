@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://drdb7aaaqfdi2"]
+[gd_scene load_steps=3 format=3 uid="uid://drdb7aaaqfdi2"]
 
 [ext_resource type="Texture2D" uid="uid://ctr207jo5uxi3" path="res://Assets/placeholder.png" id="1_k4gqd"]
+[ext_resource type="Script" path="res://Scripts/Card.cs" id="2_qt53y"]
 
 [node name="Card" type="TextureRect"]
 anchors_preset = 15
@@ -10,5 +11,5 @@ offset_right = -1042.0
 offset_bottom = -508.0
 grow_horizontal = 2
 grow_vertical = 2
-pivot_offset = Vector2(55, 0)
 texture = ExtResource("1_k4gqd")
+script = ExtResource("2_qt53y")
