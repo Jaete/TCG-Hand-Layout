@@ -58,9 +58,14 @@ public partial class HandLayout : RefCounted
             var layoutInfo = new LayoutCardInfo();
             layoutInfo.Copy(_baseLayoutInfos[i]);
             if (i == _layoutHoveredIndex){
-                layoutInfo.Position += layout.HoverMode == HoverLayout.HoverMode.Standard 
-                    ? _layoutHoverRelativePosition * layout.HoverScale * layout.HoverScale
-                    : _layoutHoverRelativePosition;
+                Vector2 targetPosition = new();
+                if (layout.HoverMode == HoverLayout.HoverMode.Standard){
+                    targetPosition = _layoutHoverRelativePosition * layout.HoverScale * layout.HoverScale;
+                }
+                else if (!layout.CalculateOffsetWhenHovered){
+                    targetPosition = _layoutHoverRelativePosition * layout.HoverScale;
+                }
+                layoutInfo.Position += targetPosition;
                 layoutInfo.Rotation = 0;
             }
             else if (_layoutHoveredIndex != -1){

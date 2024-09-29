@@ -21,6 +21,7 @@ offset_right = 553.0
 offset_bottom = 512.0
 script = ExtResource("1_qu4yx")
 CirclePercentage = 0.13
+HoverMode = "Standard"
 
 [node name="Card" parent="HandLayout" instance=ExtResource("2_vp6wi")]
 layout_mode = 0
