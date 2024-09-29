@@ -31,11 +31,13 @@ This plugin is designed for Godot .NET users who prefer not to mix C# and GDScri
 
 ### Future updates
 
-- Add card activation logic, either by click (with confirmation) or by dragging and dropping to a region of the screen defined by the developer, allowing any function to be called for activation.
+- ~~Add card activation logic, either by click (with confirmation) or by dragging and dropping to a region of the screen defined by the developer, allowing any function to be called for activation.~~
 
-- Make more fine adjustments to the layout to make it increasingly customizable, even though it’s already at an optimal point.
+- ~~Make more fine adjustments to the layout to make it increasingly customizable, even though it’s already at an optimal point.~~
 
 - Document the original code comments that are in English and translate them into Portuguese in a separate Readme file.
+
+- Later updates will be on release notes.
 
 ## Português
  
