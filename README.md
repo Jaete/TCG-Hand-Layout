@@ -21,6 +21,8 @@ This plugin is designed for Godot .NET users who prefer not to mix C# and GDScri
 
 - Dragging cards (Beta).
 
+- Card Effect handling (sample effects on the project)
+
 ### Some differences:
 
 - This version is more object-oriented. This means that I've separated some functions from the core script into their own classes.
@@ -61,6 +63,8 @@ Esse plugin foi desenvolvido pra desenvolvedores do Godot .NET que não querem m
 
 - Possibilidade de arrastar as cartas (beta)
 
+- Cartas podem possuir efeitos diversos (exemplos de efeitos no projeto)
+
 ### Algumas diferenças:
 
 - Essa versão está um pouco mais orientada a objeto. Isso significa que eu separei um pouco as classes do script principal em suas próprias classes.
@@ -68,6 +72,7 @@ Esse plugin foi desenvolvido pra desenvolvedores do Godot .NET que não querem m
 - Limpei algumas coisas que, provavelmente, eram feitas para updates futuros do plugin original como, por exemplo, algumas variáveis que não estavam sendo usadas.
 
 - Adicionei a opção de permitir que a carta, quando em hover, ficar por cima das outras cartas na renderização ou manter seu ZIndex original.
+
 
 ### Futuros updates
 
