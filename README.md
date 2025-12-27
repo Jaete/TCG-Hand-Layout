@@ -7,7 +7,7 @@ I've remade the plugin from cyanglaz repository using Godot .NET instead.
 
 This plugin is designed for Godot .NET users who prefer not to mix C# and GDScript in their projects.
 
-**Current State**: Added some more stuff over the original plugin, view the Release note to know more.
+**Current State**: Added card effect handling logic, with extensible effects that can be stacked on a single card, e.g: Fireball deals damage + has x% chance of burning.
 
 ### Features:
 
@@ -45,7 +45,7 @@ Eu refiz o plugin do repositório do cyanglaz mas usando Godot .NET no lugar.
 
 Esse plugin foi desenvolvido pra desenvolvedores do Godot .NET que não querem misturar scripts C# com GDScript nos seus projetos.
 
-**Estado atual**: Adicionei mais umas coisas sobre o plugin original. Veja as notas de release para saber mais.
+**Estado atual**: Adicionei logica para lidar com efeitos das cartas, por exemplo: Fireball causa dano + tem 10% de chance de queimar.
 
 ### Funcionalidades:
 
